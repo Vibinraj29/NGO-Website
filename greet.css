@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:arial;
+}
+nav{
+	width:100%;
+	height:9vh;
+	background-color: #03a63c;
+	color:#fff;
+}
+label{
+	font-family: bebas neue;
+	font-size:40px;
+	padding:15px 70px;
+	letter-spacing: 6px;
+}
+nav ul{
+	list-style-type: none;
+	float:right;
+}
+nav ul li{
+	display:inline-block;
+	padding:20px 43px;
+}
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+section{
+	width:100%;
+	height:100vh;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+}
+section#back{
+	background: url('image/background.jpg') no-repeat center center/cover;
+}
+.glass{
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	padding:94px 90px;
+	color:#fff;
+	font-size:19px;
+}
+.button{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 15px 52px;
+	cursor: pointer;
+	border-radius: 30px;
+}
